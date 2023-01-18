@@ -23,3 +23,13 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+class MyAppState extends ChangeNotifier {}
+
+class MyHomePage extends StatelessWidget {
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Text('Hello'),
+    );
+  }
+}
